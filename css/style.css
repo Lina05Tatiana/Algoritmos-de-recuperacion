@@ -1,0 +1,36 @@
+body{
+    
+
+        background: url(../imagen/programar1.jpg); /*../ para salir de una carpeta y / para abrir otra y poner la ruta de la imagen*/
+        text-align: center; /*se usa para centrar el titulo*/
+        background-size: cover; /*se usa para que la imagen se adapte al fondo del archivo*/
+        font-family: 'Roboto Mono', monospace; /*se agrega el link que da google font "CSS rules to specify families"*/
+        padding-top: 90px;
+    }
+    
+
+button{
+    padding: 12px 60px ;
+    margin: 10px 20px;
+    font-size:  24px;
+    background:#00f7ff;
+    color: #ffffff;
+    border-radius:20px;
+    border:4px solid #ffffff;
+    cursor: pointer;
+    transition: 0.5s;
+   
+}
+button:hover{
+background:#ffffffd2;
+color:#ffffff;
+padding:12px 80px; 
+
+}
+h1{
+    color:#ffffff;
+
+}
+h2{
+    color: #ffffff;
+}
